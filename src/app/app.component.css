@@ -1,0 +1,65 @@
+.div1{
+    height:60px;
+    width: 1116px;
+    margin-top: 12px;
+    justify-content: space-between; 
+    align-items:center;
+    background:#008080;
+    display:flex;
+}
+.div2{
+    width: 86%; 
+    justify-content:center; 
+    font-weight: bold;
+    align-items:center;
+    margin-left:15px;
+    color:white;
+}
+.btnchange{
+    float: right; 
+    font-size: 32px;
+    width: 60px;
+    height:60px; 
+    border:none; 
+    background:#008080;
+}
+.container p{
+    justify-content: center; 
+    align-items:center; 
+    margin-top: 14px;
+}
+@media only screen and (max-width: 600px) {
+    .div1{
+        width: 98%;
+        height:72px;
+        margin-left: 4px;
+        margin-top: 2px;
+    }
+    .div2{
+        width: 92%; 
+        font-size: 17px;
+    }
+    .container p{
+        width: 98%;
+        margin-top: 25px;
+        font-size: 17px;
+    }
+    #collapseExample{
+        width: 98%;
+    }
+    #collapseExample1{
+        width: 98%;
+    }
+    #collapseExample2{
+        width: 98%;
+    }
+    #collapseExample3{
+        width: 98%;
+    }
+    #collapseExample4{
+        width: 98%;
+    }
+    .all{
+        margin-top: 40px;
+    }
+}
